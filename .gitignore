@@ -1,0 +1,9 @@
+/etc
+/include
+/Lib
+/models
+/output
+/Scripts
+/share
+/utils
+*.cfg

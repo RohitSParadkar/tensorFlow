@@ -1,0 +1,6 @@
+commands :
+pip install protobuf==3.20.*
+$env:PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION="python"
+
+optional:
+ & C:/Python312/python.exe c:\Users\rparadkar\.vscode\extensions\ms-python.python-2024.2.1\pythonFiles\printEnvVariablesToFile.py c:\Users\rparadkar\.vscode\extensions\ms-python.python-2024.2.1\pythonFiles\deactivate\powershell\envVars.txt

@@ -1,0 +1,5 @@
+whenever you want to run onnx model following steps should be followed:
+1) convert .pt file to .onnx file using tranform.py file
+2) now change the classes in utils.py like following
+class_names = ["baseCut","baseDamage","colorDefect","flangeBase","flangeWithGasket","flangeWithoutGasket","threadDamage","threadMissing","topDamage"]
+3)
