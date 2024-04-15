@@ -11,7 +11,7 @@ yolov8_detector = YOLOv8(model_path, conf_thres=0.1, iou_thres=0.3)
 
 
 # Read image
-img_url = "../../output/TestIMG/PXL_20240318_152856391.MP.jpg"
+img_url = "../../output/testImage/threadDamage1.jpg"
 img = np.array(Image.open(img_url))
 print(type(img))
 
